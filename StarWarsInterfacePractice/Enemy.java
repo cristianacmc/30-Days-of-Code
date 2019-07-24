@@ -3,7 +3,7 @@ package StarWarsInterfacePractice;
 /**
  * Created by Cristiana Costa
  * on 2019-07-24
- * Program to
+ * Program to create an enemy class
  */
 
 public class Enemy implements Character{
