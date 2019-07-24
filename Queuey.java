@@ -1,10 +1,11 @@
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Stack;
 
 /**
  * Created by Cristiana Costa
  * on 2019-07-23
- * Program to show how queues work
+ * Program to show how queues work Fifo: first in first out
  */
 
 public class Queuey {
@@ -42,7 +43,7 @@ public class Queuey {
     }
 
     public static void main(String[] args) {
-        Queuey numberQueue = new Queuey();
+        /**Queuey numberQueue = new Queuey();
         numberQueue.enqueue(5);
         numberQueue.enqueue(6);
         numberQueue.enqueue(7);
@@ -52,7 +53,9 @@ public class Queuey {
         System.out.println("Second out: " + numberQueue.dequeue());
         System.out.println("Peek at thrid item: " + numberQueue.peek());
         System.out.println("Third out: " + numberQueue.dequeue());
-        System.out.println();
+        System.out.println();**/
+
+        Stack stack = new Stack();
 
     } //main
 
